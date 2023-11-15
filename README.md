@@ -4,6 +4,7 @@ It consists of a React frontend and a Rust backend.
 ## Running the frontend
 Execute the following in `./frontend`:
 ```bash
+npm install
 npm start
 ```
 By default, this frontend will use the hosted development backend at `https://greenhouse-backend-dev.fly.io`.
