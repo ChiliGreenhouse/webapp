@@ -6,9 +6,9 @@ const Regulation = () => {
     <div>
       <Button
         color="danger"
-        onClick={() => console.log("Regulation Button clicked")}
+        onClick={() => console.log("Noch nicht fertig")}
       >
-        Regulation Button
+        Hier ensteht ein Slider
       </Button>
     </div>
   );
