@@ -1,3 +1,8 @@
+## Getting started with Bootstrap
+
+The frontend is based on Bootstrap.  
+For further information see [Documentation of Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
+
 ## Available Scripts
 
 In the project directory, you can run:
