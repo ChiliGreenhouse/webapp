@@ -5,8 +5,9 @@ const Home: React.FC = () => {
   const containerStyle: React.CSSProperties = {
     display: "flex",
     justifyContent: "center",
-    alignItems: "center", // Change this to 'center'
+    alignItems: "center",
     height: "90vh",
+    position: "fixed",
   };
 
   const innerStyle: React.CSSProperties = {
@@ -18,19 +19,27 @@ const Home: React.FC = () => {
     maxHeight: "50%",
   };
 
+  const imageText: React.CSSProperties = {
+    fontSize: "25px",
+  };
+
   const boxStyle: React.CSSProperties = {
-    width: "400px",
+    width: "300px",
     height: "600px",
     backgroundColor: "#336666",
-    marginLeft: "20px",
+    marginLeft: "-100px",
     color: "#FFF",
     padding: "20px",
+    position: "relative",
   };
 
   // TODO: generate stylesheet
   return (
     <div style={containerStyle}>
       <div style={innerStyle}>
+        <div style={imageText}>
+          <p className="image-text">Here should be a photo of the chili</p>
+        </div>
         <img src="../../assets/chili.jpg" alt="Chili" style={imageStyle} />
       </div>
       <div style={boxStyle}>
