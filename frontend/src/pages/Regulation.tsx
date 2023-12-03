@@ -1,15 +1,11 @@
 import React from "react";
 import Button from "../components/Button";
+import MultiRangeSlider from "../components/MultirangeSSlider/Slider";
 
 const Regulation = () => {
   return (
     <div>
-      <Button
-        color="danger"
-        onClick={() => console.log("Noch nicht fertig")}
-      >
-        Hier ensteht ein Slider
-      </Button>
+      <MultiRangeSlider min = {0} max = {100}/>
     </div>
   );
 };
